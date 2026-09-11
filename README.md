@@ -23,6 +23,11 @@ matching the network convention.
 
 | file | sha1 | note |
 |---|---|---|
+| `rqlix-global-35e8a9fb.zip` | `35e8a9fb8d56b027ac9ff503190a0fb3e871526e` | Matches the main proxy's live pack byte for byte (2026-09-11) |
 | `rqlix-global-b42738cc.zip` | `b42738cce149d7af33680aa607ff665a489c696a` | Skyblock top-left profile HUD, blue boss-bar carrier (2026-09-10) |
 
-raw: `https://raw.githubusercontent.com/Raw2d/rqlixmc-packs/main/rqlix-global-b42738cc.zip`
+raw: `https://raw.githubusercontent.com/Raw2d/rqlixmc-packs/main/rqlix-global-35e8a9fb.zip`
+
+The previous file stays until the gateway is repointed — the pack offer is
+forced, so deleting a file the running gateway still points at kicks every
+Minehut player on join. Order is: push, then repoint, then prune.
